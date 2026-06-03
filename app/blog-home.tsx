@@ -1,6 +1,6 @@
 /**
  * @file app/blog-home.tsx
- * @description 클라이언트 사이드에서 작동하는 맛집도감 메인 홈 화면 컴포넌트입니다.
+ * @description 클라이언트 사이드에서 작동하는 예원's 맛집도감 메인 홈 화면 컴포넌트입니다.
  * Supabase 클라이언트 SDK를 활용하여 실시간 검색, 태그 필터링, 좋아요 수 증가 기능을 처리하며,
  * 제공된 2D/3D 스크랩북 디자인 시안(_2/screen.png)을 완벽히 이식했습니다.
  * 주석은 한국어로 작성되었으며, 기술적인 용어는 영어를 병기합니다.
@@ -175,7 +175,7 @@ export default function BlogHome({ initialUser }: BlogHomeProps) {
             onClick={() => { setSearchTerm(''); setActiveTag('전체'); }}
             className="font-gaegu text-headline-lg text-primary tracking-tight -rotate-1 hover:rotate-0 transition-transform flex items-center gap-1 cursor-pointer select-none"
           >
-            맛집도감
+            {"예원's 맛집도감"}
             <span className="material-symbols-outlined text-[26px] align-middle text-secondary-container">stars</span>
           </Link>
 
@@ -559,7 +559,7 @@ export default function BlogHome({ initialUser }: BlogHomeProps) {
       {/* 4. 최하단 푸터 (Footer) */}
       <footer className="bg-surface-container py-10 mt-12 border-t-2 border-dashed border-outline-variant/60 text-center space-y-4 px-6 pb-24 md:pb-10">
         <div className="font-gaegu text-headline-md text-primary font-bold">
-          맛집도감 😊
+          {"예원's 맛집도감 😊"}
         </div>
         <p className="font-nanum text-lg text-on-surface-variant/80">
           © 2026 사랑을 담아 스크랩함 (Scrapped with Love)

@@ -1,6 +1,6 @@
 /**
  * @file app/post/create/page.tsx
- * @description 맛집도감의 새 글 작성(추가) 페이지 컴포넌트입니다.
+ * @description 예원's 맛집도감의 새 글 작성(추가) 페이지 컴포넌트입니다.
  * 제공된 작성 화면 시안(_1/screen.png)의 디자인 요소를 그대로 재현했습니다.
  * 좌측은 꼬불꼬불한 에디터 폼(Editor Form)과 툴바, 우측은 3중 폴라로이드 사진 조합(Masking Tape & Polaroid) 실시간 미리보기입니다.
  * 주석은 한국어로 작성되었으며, 기술적인 용어는 영어를 병기합니다.
@@ -216,7 +216,7 @@ export default function CreatePostPage() {
             href="/"
             className="font-gaegu text-headline-lg text-primary tracking-tight -rotate-1 hover:rotate-0 transition-transform flex items-center gap-1 cursor-pointer select-none"
           >
-            맛집도감
+            {"예원's 맛집도감"}
             <span className="material-symbols-outlined text-[26px] align-middle text-secondary-container">stars</span>
           </Link>
           <div>

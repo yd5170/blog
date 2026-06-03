@@ -1,6 +1,6 @@
 /**
  * @file app/login/page.tsx
- * @description 맛집도감의 로그인 및 회원가입 페이지 컴포넌트입니다.
+ * @description 예원's 맛집도감의 로그인 및 회원가입 페이지 컴포넌트입니다.
  * 제공된 로그인/가입 화면 시안(s_1/screen.png)의 디자인 레이아웃을 그대로 반영했습니다.
  * 배경은 도트(Dot) 패턴이며, 좌측의 로그인(Login) 카드와 우측의 회원가입(SignUp) 카드가 나란히 배치되는 반응형 더블 카드 UI를 구현했습니다.
  * 주석은 한국어로 작성되었으며, 기술적인 용어는 영어를 병기합니다.
@@ -51,7 +51,7 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
           href="/"
           className="font-gaegu text-4xl text-primary font-bold tracking-tight hover:-rotate-1 transition-transform inline-block"
         >
-          맛집도감 😊
+          {"예원's 맛집도감 😊"}
         </Link>
         <p className="font-nanum text-xl text-on-surface-variant/80 mt-1">
           오늘도 맛있는 일기를 펼쳐볼까요?

@@ -1,8 +1,8 @@
-# 맛집도감 😊 (Atelier Epicure)
+# 예원's 맛집도감 😊 (Atelier Epicure)
 
 > **"사랑을 담아 기록하고 스크랩하는 감성 푸디 다이어리"**
 > 
-> 맛집도감은 Gen Z 'Kitsch' Scrapbook 에스테틱(Aesthetic)을 바탕으로 한 감성적인 맛집 기록 블로그 웹 애플리케이션입니다. 삐뚤빼뚤한 마스킹 테이프, 폴라로이드 사진 조합, 귀여운 스티커 데코와 손글씨 폰트가 어우러져 한 권의 다이어리를 꾸미는 듯한 아기자기한 UX를 제공합니다.
+> 예원's 맛집도감은 Gen Z 'Kitsch' Scrapbook 에스테틱(Aesthetic)을 바탕으로 한 감성적인 맛집 기록 블로그 웹 애플리케이션입니다. 삐뚤빼뚤한 마스킹 테이프, 폴라로이드 사진 조합, 귀여운 스티커 데코와 손글씨 폰트가 어우러져 한 권의 다이어리를 꾸미는 듯한 아기자기한 UX를 제공합니다.
 
 ---
 
@@ -21,7 +21,7 @@
 ---
 
 ## 🔒 Supabase 및 Row-Level Security (RLS) 정책
-맛집도감은 Supabase PostgreSQL의 강인한 **행 레벨 보안 (RLS, Row-Level Security)** 기능을 활성화하여 테이블에 접근하는 사용자별 권한을 엄격히 제어합니다.
+예원's 맛집도감은 Supabase PostgreSQL의 강인한 **행 레벨 보안 (RLS, Row-Level Security)** 기능을 활성화하여 테이블에 접근하는 사용자별 권한을 엄격히 제어합니다.
 
 ```sql
 -- 1. RLS 활성화
@@ -72,7 +72,7 @@ CREATE POLICY "Allow public update access" ON public.posts
 ![메인 화면 시안](design/_2/screen.png)
 *   **적용 기술**: `Next.js Client Component`, `Tailwind CSS 3D Transforms`
 *   **상세 설명**: 
-    *   **헤더**: 브랜드 로고("맛집도감 😊"), 둥근 검색바 및 로그인/회원가입 제어 버튼과 햄버거 메뉴를 배치했습니다.
+    *   **헤더**: 브랜드 로고("예원's 맛집도감 😊"), 둥근 검색바 및 로그인/회원가입 제어 버튼과 햄버거 메뉴를 배치했습니다.
     *   **사이드바**: 가구체(`font-gaegu`)가 적용된 세로형 카테고리 메뉴("전체", "데이트", "브런치", "혼밥", "숨은맛집", "에디터픽")로 신속한 목록 필터링을 지원합니다.
     *   **인기 맛집**: 폴라로이드 사진 느낌의 카드 덱 레이아웃을 구현했으며, 카드 마우스 호버 시 **3D 기울기 효과(Card Tilt Effect)**와 노란색 땡땡이 테이프(`.washi-tape-yellow`) 데코를 얹었습니다.
 

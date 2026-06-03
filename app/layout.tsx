@@ -23,7 +23,7 @@ const plusJakarta = Plus_Jakarta_Sans({
   weight: ["400", "500", "700"],
 });
 
-// 맛집도감 감성 손글씨용 구글 폰트 '개구체' 초기화
+// 예원's 맛집도감 감성 손글씨용 구글 폰트 '개구체' 초기화
 const gaegu = Gaegu({
   variable: "--font-gaegu",
   subsets: ["latin"],
@@ -39,8 +39,8 @@ const nanumPen = Nanum_Pen_Script({
 
 // 페이지 메타데이터(Metadata) 설정
 export const metadata: Metadata = {
-  title: "맛집도감 😊",
-  description: "맛있는 추억을 담는 스크랩북 다이어리, 맛집도감",
+  title: "예원's 맛집도감 😊",
+  description: "맛있는 추억을 담는 스크랩북 다이어리, 예원's 맛집도감",
 };
 
 export default function RootLayout({
