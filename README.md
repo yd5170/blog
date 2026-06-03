@@ -21,7 +21,7 @@
 ---
 
 ## 🔒 Supabase 및 Row-Level Security (RLS) 정책
-예원's 맛집도감은 Supabase PostgreSQL의 강인한 **행 레벨 보안 (RLS, Row-Level Security)** 기능을 활성화하여 테이블에 접근하는 사용자별 권한을 엄격히 제어합니다.
+Supabase PostgreSQL의 강인한 **행 레벨 보안 (RLS, Row-Level Security)** 기능을 활성화하여 테이블에 접근하는 사용자별 권한을 엄격히 제어합니다.
 
 ```sql
 -- 1. RLS 활성화
@@ -54,7 +54,7 @@ CREATE POLICY "Allow public update access" ON public.posts
 
 ### 3. 좋아요 기능 (Optimistic Likes)
 *   **설명**: 마음에 드는 맛집 카드의 하트 아이콘을 누르면 즉시 좋아요 카운트가 상승합니다.
-*   **매칭 기술**: **낙관적 업데이트 (Optimistic Update)** 기법. 서버의 응답을 기다리지 않고 화면의 좋아요 수 카운트를 즉시 올린 후 백그라운드에서 Supabase UPDATE API를 호출하여 최상의 반응성(60fps)을 보장합니다.
+*   **매칭 기술**: 서버의 응답을 기다리지 않고 화면의 좋아요 수 카운트를 즉시 올린 후 백그라운드에서 Supabase UPDATE API를 호출하여 최상의 반응성(60fps)을 보장합니다.
 
 ### 4. 검색 기능 (Real-time Filtering)
 *   **설명**: 메인 헤더의 입력창을 통해 제목, 카테고리, 위치, 스티커 태그 명을 실시간으로 검색하여 일치하는 다이어리 목록만 필터링합니다.
